@@ -24,13 +24,13 @@
             <ul class="navbar-nav mx-auto">
 
               <li class="nav-item">
-                <a class="nav-link active"  href="ex1.php">EX1</a>
+                <a class="nav-link active"  href="ex1.php">Exercise1</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="page.php">EX2</a>
+                <a class="nav-link active"  href="page.php">Exercise2</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="#menu">Menu</a>
+                <a class="nav-link active"  href="ex3.php">Exercise 3</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link active"  href="#services">Services</a>
