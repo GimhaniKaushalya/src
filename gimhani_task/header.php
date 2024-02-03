@@ -33,16 +33,16 @@
                 <a class="nav-link active"  href="ex3.php">Exercise 3</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="#services">Services</a>
+                <a class="nav-link active"  href="ex4.php">Exercise 4</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="#alumni">Alumni</a>
+                <a class="nav-link active"  href="ex5.php">Excercise 5</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="#reviews">Reviews</a>
+                <a class="nav-link active"  href="ex6.php">Excercise 6</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active"  href="#footer">Contact us</a>
+                <a class="nav-link active"  href="ex7.php">Excercise 7</a>
               </li>
              
             </ul>

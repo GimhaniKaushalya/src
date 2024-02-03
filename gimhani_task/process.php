@@ -2,12 +2,11 @@
 $title="your informaton";
 include "header.php" ;
 
-$name=$_POST["name"];
-$email=$_POST["email"];
-$date=$_POST["date"];
-$nop=$_POST["nop"];
+$fname=$_POST["fname"];
+$lname=$_POST["lname"];
 
-echo "Hello" . $name  ."<br>Your mail id is :" . $email;
+
+echo "Hello " . $fname ." "   . $lname . "You are welcome to my site.";
 
 
  include "footer.php";
