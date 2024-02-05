@@ -94,14 +94,9 @@ echo "The sum of $num1, $num2, and $num3 is: $sum";
 echo $_SERVER['SERVER_NAME'];
 ?>
 
+<?php $file_path = __FILE__; ?>
+
 <?php include "footer.php" ;?>
-
-
-<?php
-echo $_SERVER['REQUEST_TIME'];
-?>
-
-
 
 
 
