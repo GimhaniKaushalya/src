@@ -1,5 +1,10 @@
+<?php
+ $title = "data collection" ;
+include '../header.php';
+?>
+
 <h2>Input Your Information Below:</h2>
-<form name="form1" method="post" action="">
+<form name="form1" method="post" action="process.php">
     <div class="form-group">
         <div class="row">
             <div class="col">
@@ -32,3 +37,6 @@
     </div>
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
 </form>
+<?php
+include '../footer.php';
+?>
