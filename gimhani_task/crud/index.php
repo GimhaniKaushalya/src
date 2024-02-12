@@ -1,10 +1,10 @@
 <?php
  $title = "data collection" ;
-include '../header.php';
+include 'headercrud.php';
 ?>
 
 <h2>Input Your Information Below:</h2>
-<form name="form1" method="post" action="process.php">
+<form name="form1" method="post" action="process1.php">
     <div class="form-group">
         <div class="row">
             <div class="col">
@@ -35,8 +35,10 @@ include '../header.php';
             </div>
         </div>
     </div>
+    <div class="form-group col-md-12 text-center">
     <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+</div>
 </form>
 <?php
-include '../footer.php';
+include 'footer.php';
 ?>

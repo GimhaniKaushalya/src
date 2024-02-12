@@ -1,8 +1,8 @@
 <?php
-$servername="localhost"; 
-$username= "gimhani23000";
-$password="UMsa0xAT";
-$dbname="wp_gimhani23000";
+$servername="web-dev-env-main-db-1"; 
+$username= "crudapp";
+$password="Gim&Kuma1203";
+$dbname="crudapp";
 
 // database connection
 $conn =new mysqli($servername,$username,$password,$dbname);
