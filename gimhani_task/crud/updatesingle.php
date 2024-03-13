@@ -45,7 +45,9 @@ if (isset($_POST['submit'])){
     
     $fname = $_POST['fname'];
     $lname = $_POST['lname'];
-    $query = mysqli_query($conn,"UPDATE studentsinfo set first_name='$fname', last_name='$lname' where id='$a'");
+    $city=$_POST['city'];
+    $groupid=$_POST['groupid'];
+    $query = mysqli_query($conn,"UPDATE studentsinfo set first_name='$fname', last_name='$lname', city='$city', groupid='$groupid' where id='$a'");
     if($query){
         echo "<h2>Your information is updated Successfully</h2>";
         // if you want to redirect to update page after updating
